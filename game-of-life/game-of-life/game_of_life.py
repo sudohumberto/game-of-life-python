@@ -18,22 +18,22 @@ from GameOfLifeGif import *
 
 # Main
 
-def main():
+#def main():
 
-    app = QApplication(sys.argv)
+#    app = QApplication(sys.argv)
 
-    game_of_life = GameOfLife(50,50, "beluchenko-p37.csv")
+#    game_of_life = GameOfLife(50,50, "beluchenko-p37.csv")
     
-    window = GameOfLifeGUI(game_of_life)
+#    window = GameOfLifeGUI(game_of_life)
 
-    sys.exit(app.exec_())
+#    sys.exit(app.exec_())
 
 
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+#    main()
 
 # Ceate GIF
 
-#game_of_life = GameOfLife(50,50, "beluchenko-p37.csv")
+game_of_life = GameOfLife(50,50, "lexicon/gabriel-p138.csv")
 
-#GameOfLifeGif(game_of_life, "beluchenko-p37.gif").create(iterations=100)
+GameOfLifeGif(game_of_life, "gabriel-p138.gif").create(iterations=138)
