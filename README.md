@@ -19,7 +19,10 @@ Initial configurations which make the game keep forever
 
 1. Beluchenko's p37
 
-![Beluchenko's p37](game-of-life/game-of-life/beluchenko-p37.gif)
+![Beluchenko's p37](generated/beluchenko-p37.gif)
+
+2. Gabriel's p138
+![Beluchenko's p37](generated/gabriel-p138.gif)
 
 ## Future Work
 
