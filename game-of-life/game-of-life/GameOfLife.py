@@ -8,7 +8,7 @@ import pandas as pd
 class GameOfLife:
     
     
-    def __init__(self, rows, cols, seed=None):
+    def __init__(self, rows, cols, seed=None, random=False):
         """
         Initializes the matrix and settle a seed if required
 
@@ -24,6 +24,9 @@ class GameOfLife:
         self.cols = cols
         
         self.matrix = np.zeros((rows, cols))
+
+        if random:
+            self.matrix = np.random.randint(0, 2, size=(rows, cols))
 
         if seed != None:
             self.load_seed(seed)

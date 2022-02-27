@@ -24,6 +24,9 @@ Initial configurations which make the game keep forever
 2. Gabriel's p138
 ![Beluchenko's p37](generated/gabriel-p138.gif)
 
+3. Random
+![Random](generated/radom-200.gif)
+
 ## Future Work
 
 * RGB implementation

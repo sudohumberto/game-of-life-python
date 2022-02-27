@@ -22,7 +22,7 @@ from GameOfLifeGif import *
 
 #    app = QApplication(sys.argv)
 
-#    game_of_life = GameOfLife(50,50, "beluchenko-p37.csv")
+#    game_of_life = GameOfLife(50,50, random=True)
     
 #    window = GameOfLifeGUI(game_of_life)
 
@@ -34,6 +34,10 @@ from GameOfLifeGif import *
 
 # Ceate GIF
 
-game_of_life = GameOfLife(50,50, "lexicon/gabriel-p138.csv")
+#game_of_life = GameOfLife(50,50, "lexicon/gabriel-p138.csv")
 
-GameOfLifeGif(game_of_life, "gabriel-p138.gif").create(iterations=138)
+#GameOfLifeGif(game_of_life, "gabriel-p138.gif").create(iterations=138)
+
+game_of_life = GameOfLife(50,50, random=True)
+
+GameOfLifeGif(game_of_life, "radom-200.gif").create(iterations=200)
